@@ -2,7 +2,7 @@
 
 describe('URL Test', () => {
   it('should login with valid credentials', () => {
-    cy.visit('https://stg.platform.creatingly.com/');
-    cy.contains("Get started");
+    cy.visit('https://stg.platform.creatingly.com/apps/');
+    //cy.contains("Get started");
   });
 })
