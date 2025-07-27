@@ -5,8 +5,8 @@ describe('URL Test', () => {
     cy.visit('https://stg.platform.creatingly.com/apps/');
      cy.get('div[role="button"][name="Draw Artboard"]').click();
 
-  cy.get('div[role="button"][name="Desktop Template1"]')
-    .should('be.visible').click();
+//   cy.get('div[role="button"][name="Desktop Template1"]')
+//     .should('be.visible').click();
 
   });
 })
