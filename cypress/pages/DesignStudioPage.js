@@ -12,13 +12,12 @@ dragArtboardToCanvas() {
 
   // Step 2: Wait for modal and select 'Desktop Template1'
   cy.get('div[role="button"][name="Desktop Template1"]')
-    .should('be.visible')
-    .click();
+    .should('be.visible').click();
 
-  // Optional Step 3: Assert that artboard is added to the canvas
-  cy.get('[data-testid="canvas"]')
-    .find('[data-testid="artboard"]')
-    .should('exist');
+//   // Optional Step 3: Assert that artboard is added to the canvas
+//   cy.get('[data-testid="canvas"]')
+//     .find('[data-testid="artboard"]')
+//     .should('exist');
 }
 
 

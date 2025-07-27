@@ -5,7 +5,6 @@ const designStudio = new DesignStudioPage();
 describe('Design Studio Interaction', () => {
   beforeEach(() => {
     cy.visit('/');
-    // Optional: perform login or set auth token via command
   });
 
   it('should drag and drop artboard to canvas', () => {
